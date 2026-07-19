@@ -107,7 +107,7 @@ export default function Home() {
 
           <div className="video-proof-grid" aria-label="What the walkthrough demonstrates">
             <span><PlayCircle size={18} /><strong>Real actions</strong><small>Cursor, typing, clicks, and state changes</small></span>
-            <span><Volume2 size={18} /><strong>Human narration</strong><small>A clear explanation of the business workflow</small></span>
+            <span><Volume2 size={18} /><strong>Natural voiceover</strong><small>Clear narration with English captions</small></span>
             <span><Captions size={18} /><strong>English captions</strong><small>Readable with or without audio</small></span>
           </div>
         </div>
