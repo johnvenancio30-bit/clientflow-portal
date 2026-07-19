@@ -1,0 +1,9 @@
+Here’s ClientFlow, a client delivery workspace I built for service businesses. Instead of chasing project updates across email, folders, and spreadsheets, the owner and client share one clear view. Let me show you.
+
+On the owner dashboard, I can see active work, open requests, and outstanding invoices. I’ll open the project plan and mark visual design approval complete. Progress updates immediately, and the action is recorded.
+
+Now I’ll switch to the client side. The client can send a clear request without starting another email thread. I’ll ask for a launch countdown, add the context, and send it to the project owner.
+
+Back in the owner view, I can confirm payment on the sent invoice. Finally, the activity timeline shows every important change: who did it, what changed, and when.
+
+That means fewer status meetings, fewer lost decisions, and a more professional client experience. Built by John Venancio, AI Automation Specialist and Full-Stack Web Developer. Try the live demo, or contact me to build a system for your workflow.
