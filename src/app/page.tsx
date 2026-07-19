@@ -4,10 +4,13 @@ import {
   Check,
   CheckCircle2,
   CircleDollarSign,
+  Captions,
   Files,
   MessageSquareText,
+  PlayCircle,
   ShieldCheck,
   Sparkles,
+  Volume2,
 } from "lucide-react";
 import { ProductPreview } from "@/components/ProductPreview";
 import { SiteHeader } from "@/components/SiteHeader";
@@ -51,8 +54,8 @@ export default function Home() {
               <Link className="button button-primary" href="/demo">
                 Try the guided demo <ArrowRight size={17} />
               </Link>
-              <Link className="button button-secondary" href="/case-study">
-                View the case study
+              <Link className="button button-secondary" href="#walkthrough">
+                <PlayCircle size={17} /> Watch 70-sec video
               </Link>
             </div>
             <div className="hero-proof" aria-label="Product highlights">
@@ -72,6 +75,41 @@ export default function Home() {
           <strong>Consultants</strong>
           <strong>Freelancers</strong>
           <strong>Service teams</strong>
+        </div>
+      </section>
+
+      <section className="section homepage-video-section" id="walkthrough">
+        <div className="marketing-shell">
+          <div className="section-heading split-heading video-section-heading">
+            <div>
+              <p className="kicker"><PlayCircle size={15} /> REAL PRODUCT WALKTHROUGH</p>
+              <h2>See ClientFlow work before you try it.</h2>
+            </div>
+            <div className="video-heading-copy">
+              <p>Watch the owner complete work, the client submit a request, payment get recorded, and every action appear in the shared history.</p>
+              <span><Volume2 size={16} /> Press Play to hear the narrated explanation.</span>
+            </div>
+          </div>
+
+          <div className="home-video-frame">
+            <video
+              controls
+              playsInline
+              preload="metadata"
+              poster="/clientflow-walkthrough-poster.png"
+              aria-label="Narrated ClientFlow owner and client workflow walkthrough"
+            >
+              <source src="/clientflow-walkthrough.mp4" type="video/mp4" />
+              <track kind="captions" src="/clientflow-walkthrough.vtt" srcLang="en" label="English" default />
+              Your browser does not support the video element.
+            </video>
+          </div>
+
+          <div className="video-proof-grid" aria-label="What the walkthrough demonstrates">
+            <span><PlayCircle size={18} /><strong>Real actions</strong><small>Cursor, typing, clicks, and state changes</small></span>
+            <span><Volume2 size={18} /><strong>Human narration</strong><small>A clear explanation of the business workflow</small></span>
+            <span><Captions size={18} /><strong>English captions</strong><small>Readable with or without audio</small></span>
+          </div>
         </div>
       </section>
 
