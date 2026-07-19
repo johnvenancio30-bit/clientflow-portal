@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://clientflow-portal.vercel.app";
+  const baseUrl = "https://clientflow-workspace.vercel.app";
   return [
     { url: baseUrl, changeFrequency: "monthly", priority: 1 },
     { url: `${baseUrl}/demo`, changeFrequency: "monthly", priority: 0.9 },

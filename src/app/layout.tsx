@@ -13,7 +13,7 @@ const sourceSans = Source_Sans_3({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://clientflow-portal.vercel.app"),
+  metadataBase: new URL("https://clientflow-workspace.vercel.app"),
   title: {
     default: "ClientFlow — A calmer client delivery workspace",
     template: "%s | ClientFlow",
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     title: "ClientFlow — A calmer client delivery workspace",
     description:
       "Keep projects, approvals, documents, and invoices in one client-friendly workspace.",
-    url: "https://clientflow-portal.vercel.app",
+    url: "https://clientflow-workspace.vercel.app",
     siteName: "ClientFlow",
     type: "website",
   },
